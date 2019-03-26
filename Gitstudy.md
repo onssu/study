@@ -19,7 +19,7 @@ Git - 내 컴퓨터(add) -> 내컴퓨터의 어떤공간(push) -> 원격
 * push // 원격으로 보냄
 * pull // 지금 git에 있는 파일들 전부 업데이트 된 상태로 내려받기
 * diff // 이전의 파일과 어떤 부분이 달라졌는지 보여줌
-* remote //
+* remote // 저장소 등록
 * checkout // branch를 변경
 * merge //다른 branch에서 master로 합병
 
