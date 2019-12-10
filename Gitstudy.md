@@ -71,7 +71,7 @@ git pull 에러 발생 시 : git stash (파일을 임시로 백업하고 깨끗�
 git commit -a : 전부 포함해서 커밋하는것
 git commit -m 'messege' : 개별로 커밋
 
-Git Vi 명령어
+- Git Vi 명령어
 
 command mode > Edit mode - i,a,o
 Edit mode > command mode - Esc
