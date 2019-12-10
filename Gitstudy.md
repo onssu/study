@@ -1,4 +1,5 @@
-##Study
+#Study
+
 ## Git Study by misoonss
 
 * 2019.03.23 sat
@@ -8,7 +9,11 @@ Git - 형상관리 프로그램
 
 Git - 내 컴퓨터(add) -> 내컴퓨터의 어떤공간(push) -> 원격
 
+
 내가 소스코드를 짰다! -> 원격에 배포하고싶다.!! -> 그러면 공유 리포지토리를 만든다 -> 배포한다.!!!!
+
+ls //list 
+cd // change directory
 
 * init //처음 내 파일들을 Git이 관리할 수 있게 만들어 줌
 * clone // 복사
@@ -17,7 +22,7 @@ Git - 내 컴퓨터(add) -> 내컴퓨터의 어떤공간(push) -> 원격
 * push // 원격으로 보냄
 * pull // 지금 git에 있는 파일들 전부 업데이트 된 상태로 내려받기
 * diff // 이전의 파일과 어떤 부분이 달라졌는지 보여줌
-* remote // 저장소 등록 관련
+* remote //
 * checkout // branch를 변경
 * merge //다른 branch에서 master로 합병
 
@@ -30,10 +35,12 @@ Git - 내 컴퓨터(add) -> 내컴퓨터의 어떤공간(push) -> 원격
 * tag
 * fetch
 
+
 ## 오늘 해본 것
 
 현재 협업을 하고 있는 상황!!
  - master branch의 코드는 유지되어야 한다.!! -> 그리고 난 수정을 해야한다!! -> 그리고 수정이 끝나고 confirm을 받는다 -> 합격이다!! -> 합치자!! -> 올리자
+
 
 *git status 는 수시로 해주는 게 좋다.
 
