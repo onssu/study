@@ -63,6 +63,11 @@ cd // change directory
 
 ##2019.12.10 TUE added.
 
+remote > origin 
+remote 로 확인할 것
+
+git pull 에러 발생 시 : git stash (파일을 임시로 백업하고 깨끗하게 만듦)
+
 git commit -a : 전부 포함해서 커밋하는것
 git commit -m 'messege' : 개별로 커밋
 
