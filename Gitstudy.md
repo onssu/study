@@ -60,3 +60,22 @@ cd // change directory
   git status//상태 확인
   git push origin master// 합병 후 원격 저장까지 완료
 
+
+##2019.12.10 TUE added.
+
+git commit -a : 전부 포함해서 커밋하는것
+git commit -m 'messege' : 개별로 커밋
+
+Git Vi 명령어
+
+command mode > Edit mode - i,a,o
+Edit mode > command mode - Esc
+Command mode > last Line mode - :,/,?
+last Line mode > Command mode - Enter
+
+vi filename : 열기, 작성
+view filename : 읽기전용으로 열기
+
+:wq : w 는 저장 q는 편집기 종료 
+저장하였어도 커밋 메세지가 없으면 커밋이 작성되지 않음
+커밋 메세지 내의 #로 시작하는 줄은 주석처리됨.
