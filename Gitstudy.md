@@ -61,26 +61,27 @@ cd // change directory
   git push origin master// 합병 후 원격 저장까지 완료
 
 
-##2019.12.10 TUE added.
+## 2019.12.10 TUE added.
 
-remote > origin 
+*remote > origin ?
 remote 로 확인할 것
 
-git pull 에러 발생 시 : git stash (파일을 임시로 백업하고 깨끗하게 만듦)
+*git pull 에러 발생 시 : git stash (파일을 임시로 백업하고 깨끗하게 만듦)
 
-git commit -a : 전부 포함해서 커밋하는것
-git commit -m 'messege' : 개별로 커밋
+*git commit -a : 전부 포함해서 커밋하는것
+*git commit -m 'messege' : 개별로 커밋
 
-Git Vi 명령어
+-Git Vi 명령어
 
 command mode > Edit mode - i,a,o
 Edit mode > command mode - Esc
 Command mode > last Line mode - :,/,?
 last Line mode > Command mode - Enter
 
-vi filename : 열기, 작성
-view filename : 읽기전용으로 열기
+*vi filename : 열기, 작성
+*view filename : 읽기전용으로 열기
 
-:wq : w 는 저장 q는 편집기 종료 
+- :wq : w 는 저장 q는 편집기 종료 
+
 저장하였어도 커밋 메세지가 없으면 커밋이 작성되지 않음
 커밋 메세지 내의 #로 시작하는 줄은 주석처리됨.
