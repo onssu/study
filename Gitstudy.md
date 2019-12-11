@@ -12,7 +12,7 @@ Git - 내 컴퓨터(add) -> 내컴퓨터의 어떤공간(push) -> 원격
 
 내가 소스코드를 짰다! -> 원격에 배포하고싶다.!! -> 그러면 공유 리포지토리를 만든다 -> 배포한다.!!!!
 
-ls //list 
+ls //list   
 cd // change directory
 
 * init //처음 내 파일들을 Git이 관리할 수 있게 만들어 줌
@@ -44,20 +44,20 @@ cd // change directory
 
 *git status 는 수시로 해주는 게 좋다.
 
- git checkout -b yuri // yuri라는 brach 생성
- git branch //branch의 목록과 내가 지금 어느 branch에 들어와있는지 볼 수 있다
- vi file_name.md //파일 수정
-  - 파일 내에서 수정하기 (i) 수정 후 종료 (Esc) -> :wq 저장
-  git status // 지금 디렉토리 상태 확인
-  git add file_name.md // 내 컴퓨터에 저장
-  git commit -m "file_name.md modified" // 파일이 수정되었다고 주석을 단다
-  git push origin yuri // yuri라는 branch로 원격에 파일 저장
+ git checkout -b yuri // yuri라는 brach 생성  
+ git branch //branch의 목록과 내가 지금 어느 branch에 들어와있는지 볼 수 있다  
+ vi file_name.md //파일 수정  
+  - 파일 내에서 수정하기 (i) 수정 후 종료 (Esc) -> :wq 저장  
+  git status // 지금 디렉토리 상태 확인  
+  git add file_name.md // 내 컴퓨터에 저장  
+  git commit -m "file_name.md modified" // 파일이 수정되었다고 주석을 단다  
+  git push origin yuri // yuri라는 branch로 원격에 파일 저장  
   
   원래 여기서 pull request로 다른 사람들에게 나 파일 수정했으니 허락해줘요 하고 confirm 받아야함
 
-  git checkout master// branch master로 변경
-  git merge yuri// yuri와 합병한다
-  git status//상태 확인
+  git checkout master// branch master로 변경  
+  git merge yuri// yuri와 합병한다  
+  git status//상태 확인  
   git push origin master// 합병 후 원격 저장까지 완료
 
 
@@ -121,4 +121,13 @@ git commit -m 'keep file'
 git push -u origin master   
 
 
-md 는 개행이 안먹히니 공백 2칸 또는 개행 2번으로 구분하자..  
+md 는 개행이 안먹히니 공백 2칸 또는 개행 2번으로 구분하자..
+
+.. : 이전 디렉토리   
+. : 현재 디렉토리  
+~ : 홈 디렉토리    
+
+mkdir : 디렉토리 생성  
+mv : 어떤 파일을 이동(mv 파일 이동시킬경로)?  
+
+
