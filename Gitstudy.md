@@ -63,7 +63,11 @@ cd // change directory
 
 ## 2019.12.10 TUE added.
 
+<<<<<<< HEAD
 *remote > origin ?
+=======
+- remote > origin 
+>>>>>>> d35d28d1869c75a13b68810433953933c1874a9a
 remote 로 확인할 것
 
 *git pull 에러 발생 시 : git stash (파일을 임시로 백업하고 깨끗하게 만듦)
@@ -71,15 +75,24 @@ remote 로 확인할 것
 *git commit -a : 전부 포함해서 커밋하는것
 *git commit -m 'messege' : 개별로 커밋
 
+<<<<<<< HEAD
 -Git Vi 명령어
+=======
+- Git Vi 명령어
+>>>>>>> d35d28d1869c75a13b68810433953933c1874a9a
 
 command mode > Edit mode - i,a,o
 Edit mode > command mode - Esc
 Command mode > last Line mode - :,/,?
 last Line mode > Command mode - Enter
 
+<<<<<<< HEAD
 *vi filename : 열기, 작성
 *view filename : 읽기전용으로 열기
+=======
+* vi filename : 열기, 작성
+* view filename : 읽기전용으로 열기
+>>>>>>> d35d28d1869c75a13b68810433953933c1874a9a
 
 - :wq : w 는 저장 q는 편집기 종료 
 
