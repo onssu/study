@@ -66,6 +66,7 @@ cd // change directory
 - remote > origin 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 22d38d75262568daf1e0db0bda91d387176db23b
 =======
 <<<<<<< HEAD
@@ -78,6 +79,13 @@ cd // change directory
 =======
 >>>>>>> 860887f... new study 12/11
 >>>>>>> 6252d48e705b72cb07f2b5087d2f73b665d0e626
+=======
+>>>>>>> d35d28d1869c75a13b68810433953933c1874a9a
+=======
+>>>>>>> 860887f... new study 12/11
+=======
+>>>>>>> 13d7a087928d8bce248db9613d4639589fbce101
+>>>>>>> 731d111c3d541230527430d30e4ad116206f28c9
 remote 로 확인할 것
 
 *git pull 에러 발생 시 : git stash (파일을 임시로 백업하고 깨끗하게 만듦)
@@ -85,6 +93,7 @@ remote 로 확인할 것
 *git commit -a : 전부 포함해서 커밋하는것  
 *git commit -m 'messege' : 개별로 커밋
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 -Git Vi 명령어
@@ -103,6 +112,17 @@ remote 로 확인할 것
 =======
 >>>>>>> 860887f... new study 12/11
 >>>>>>> 6252d48e705b72cb07f2b5087d2f73b665d0e626
+=======
+<<<<<<< HEAD
+-Git Vi 명령어
+=======
+- Git Vi 명령어
+>>>>>>> d35d28d1869c75a13b68810433953933c1874a9a
+=======
+>>>>>>> 860887f... new study 12/11
+=======
+>>>>>>> 13d7a087928d8bce248db9613d4639589fbce101
+>>>>>>> 731d111c3d541230527430d30e4ad116206f28c9
 
 command mode > Edit mode - i,a,o  
 Edit mode > command mode - Esc  
@@ -111,11 +131,16 @@ last Line mode > Command mode - Enter
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 731d111c3d541230527430d30e4ad116206f28c9
 *vi filename : 열기, 작성
 *view filename : 읽기전용으로 열기
 =======
 * vi filename : 열기, 작성
 * view filename : 읽기전용으로 열기
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 22d38d75262568daf1e0db0bda91d387176db23b
@@ -132,6 +157,17 @@ last Line mode > Command mode - Enter
 >>>>>>> 9a95fe7... new
 =======
 >>>>>>> 6252d48e705b72cb07f2b5087d2f73b665d0e626
+=======
+>>>>>>> d35d28d1869c75a13b68810433953933c1874a9a
+=======
+*vi filename : 열기, 작성  
+*view filename : 읽기전용으로 열기  
+>>>>>>> 860887f... new study 12/11
+=======
+*vi filename : 열기, 작성  
+*view filename : 읽기전용으로 열기  
+>>>>>>> 13d7a087928d8bce248db9613d4639589fbce101
+>>>>>>> 731d111c3d541230527430d30e4ad116206f28c9
 
 - :wq : w 는 저장 q는 편집기 종료   
 
