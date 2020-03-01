@@ -48,11 +48,11 @@ cd // change directory
  git branch //branch의 목록과 내가 지금 어느 branch에 들어와있는지 볼 수 있다  
  vi file_name.md //파일 수정  
   - 파일 내에서 수정하기 (i) 수정 후 종료 (Esc) -> :wq 저장  
-  git status // 지금 디렉토리 상태 확인  
-  git add file_name.md // 내 컴퓨터에 저장  
-  git commit -m "file_name.md modified" // 파일이 수정되었다고 주석을 단다  
-  git push origin yuri // yuri라는 branch로 원격에 파일 저장  
-  
+    git status // 지금 디렉토리 상태 확인  
+    git add file_name.md // 내 컴퓨터에 저장  
+    git commit -m "file_name.md modified" // 파일이 수정되었다고 주석을 단다  
+    git push origin yuri // yuri라는 branch로 원격에 파일 저장  
+
   원래 여기서 pull request로 다른 사람들에게 나 파일 수정했으니 허락해줘요 하고 confirm 받아야함
 
   git checkout master// branch master로 변경  
@@ -64,111 +64,26 @@ cd // change directory
 ## 2019.12.10 TUE added.
 
 - remote > origin 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 22d38d75262568daf1e0db0bda91d387176db23b
-=======
-<<<<<<< HEAD
->>>>>>> d35d28d1869c75a13b68810433953933c1874a9a
-=======
->>>>>>> 860887f... new study 12/11
->>>>>>> 9a95fe7... new
-=======
->>>>>>> 5fa96f68dbcbd50c7f47fda035f235c3de3dba96
-=======
->>>>>>> 860887f... new study 12/11
->>>>>>> 6252d48e705b72cb07f2b5087d2f73b665d0e626
-=======
->>>>>>> d35d28d1869c75a13b68810433953933c1874a9a
-=======
->>>>>>> 860887f... new study 12/11
-=======
->>>>>>> 13d7a087928d8bce248db9613d4639589fbce101
->>>>>>> 731d111c3d541230527430d30e4ad116206f28c9
-remote 로 확인할 것
+  remote 로 확인할 것
 
-*git pull 에러 발생 시 : git stash (파일을 임시로 백업하고 깨끗하게 만듦)
+  
+
+  *git pull 에러 발생 시 : git stash (파일을 임시로 백업하고 깨끗하게 만듦)
 
 *git commit -a : 전부 포함해서 커밋하는것  
 *git commit -m 'messege' : 개별로 커밋
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 -Git Vi 명령어
 =======
 - Git Vi 명령어
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 22d38d75262568daf1e0db0bda91d387176db23b
-=======
->>>>>>> d35d28d1869c75a13b68810433953933c1874a9a
-=======
->>>>>>> 860887f... new study 12/11
->>>>>>> 9a95fe7... new
-=======
->>>>>>> 5fa96f68dbcbd50c7f47fda035f235c3de3dba96
-=======
->>>>>>> 860887f... new study 12/11
->>>>>>> 6252d48e705b72cb07f2b5087d2f73b665d0e626
-=======
-<<<<<<< HEAD
--Git Vi 명령어
-=======
-- Git Vi 명령어
->>>>>>> d35d28d1869c75a13b68810433953933c1874a9a
-=======
->>>>>>> 860887f... new study 12/11
-=======
->>>>>>> 13d7a087928d8bce248db9613d4639589fbce101
->>>>>>> 731d111c3d541230527430d30e4ad116206f28c9
 
 command mode > Edit mode - i,a,o  
 Edit mode > command mode - Esc  
 Command mode > last Line mode - :,/,?  
 last Line mode > Command mode - Enter  
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 731d111c3d541230527430d30e4ad116206f28c9
-*vi filename : 열기, 작성
-*view filename : 읽기전용으로 열기
-=======
 * vi filename : 열기, 작성
 * view filename : 읽기전용으로 열기
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 22d38d75262568daf1e0db0bda91d387176db23b
-=======
->>>>>>> d35d28d1869c75a13b68810433953933c1874a9a
-=======
->>>>>>> 5fa96f68dbcbd50c7f47fda035f235c3de3dba96
->>>>>>> 6252d48e705b72cb07f2b5087d2f73b665d0e626
-=======
-*vi filename : 열기, 작성  
-*view filename : 읽기전용으로 열기  
->>>>>>> 860887f... new study 12/11
-<<<<<<< HEAD
->>>>>>> 9a95fe7... new
-=======
->>>>>>> 6252d48e705b72cb07f2b5087d2f73b665d0e626
-=======
->>>>>>> d35d28d1869c75a13b68810433953933c1874a9a
-=======
-*vi filename : 열기, 작성  
-*view filename : 읽기전용으로 열기  
->>>>>>> 860887f... new study 12/11
-=======
-*vi filename : 열기, 작성  
-*view filename : 읽기전용으로 열기  
->>>>>>> 13d7a087928d8bce248db9613d4639589fbce101
->>>>>>> 731d111c3d541230527430d30e4ad116206f28c9
-
 - :wq : w 는 저장 q는 편집기 종료   
 
 저장하였어도 커밋 메세지가 없으면 커밋이 작성되지 않음  
