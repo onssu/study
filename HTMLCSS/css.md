@@ -1,5 +1,3 @@
-Style sheet 내부, 외부 적용방법 익숙해지기
-
 **margin padding 차이는?**
 
 margin은 정의된 요소 주위에  공간 여백을 늘리는 반면, padding은 컨텐츠를 기점으로 공간이 생긴다고 보시면 되는데, 
@@ -44,7 +42,7 @@ p {  margin-top: 100px;  margin-bottom: 100px;  margin-right: 150px;  margin-lef
 
 * Auto 속성 지정하면 중앙정렬
 
--**padding**
+#### - **padding**
 
 **컨텐츠와 컨테이너 사이에 공간감을 부여하는 padding(패딩) 값은** **margin과 동일한 수치값을 적용하되** **auto 값만 없다고 생각하면 됩니다.**
 
@@ -52,15 +50,9 @@ p {  margin-top: 100px;  margin-bottom: 100px;  margin-right: 150px;  margin-lef
 
 - padding 은 margin과 달리 동시에 값이 적용될 때 합산한 값이 적용된다.
 
+- box-sizing: border-box; 속성을 사용하여 제한해두면 영역이 벗어나지 않고 유지된다.
 
-
-
-
-
-
-
-
-
+------
 
 Background-size : background-image 적용 시 이미지 크기 맞춰서 조절가능 그냥 width height 조절과는 다르다
 
