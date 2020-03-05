@@ -102,3 +102,9 @@ text-shadow는 글자에 그림자 효과를 주는 속성입니다.
 **스타일시트 중복적용 안하려면**
 .style not(class name) 
 
+**웹 폰트 적용방법**
+
+- https://moolgogiheart.tistory.com/89
+
+- https://medium.com/@hyunalee419/feconf-korea-웹폰트의-사용과-최적화-이상진-58c210fa77c4
+
