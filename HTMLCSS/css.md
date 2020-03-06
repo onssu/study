@@ -108,3 +108,31 @@ text-shadow는 글자에 그림자 효과를 주는 속성입니다.
 
 - https://medium.com/@hyunalee419/feconf-korea-웹폰트의-사용과-최적화-이상진-58c210fa77c4
 
+**Mouse position 관련 효과**
+
+* 마우스를 올리고 있는 동안 : hover
+
+\* 마우스를 클릭하고 있는 동안 : active
+
+\* 마우스를 한번 클릭 한 이후 : visited
+
+```css
+/* 마우스 오버(마우스 올렸을때) */
+   a:hover{
+      background-color: chocolate;
+   }
+
+/* 마우스 클릭하고있을때 */
+   a:active{
+     background-color: aqua;
+   }
+
+/* 마우스 한번클릭후 */
+   a:visited{
+     color: white;
+   }
+
+
+```
+
+​    
