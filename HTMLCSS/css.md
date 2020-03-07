@@ -136,3 +136,8 @@ text-shadow는 글자에 그림자 효과를 주는 속성입니다.
 ```
 
 ​    
+
+**색상표**
+
+https://html-color-codes.info/Korean/
+
