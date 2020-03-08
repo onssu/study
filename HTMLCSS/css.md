@@ -1,4 +1,18 @@
-**margin padding 차이는?**
+```html
+<!-- HTML주석 -->
+```
+
+```javascript
+// JavaScript  주석
+
+/*
+
+Java Script & CSS 주석
+
+*/
+```
+
+margin padding 차이는?**
 
 margin은 정의된 요소 주위에  공간 여백을 늘리는 반면, padding은 컨텐츠를 기점으로 공간이 생긴다고 보시면 되는데, 
 
