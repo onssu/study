@@ -1,3 +1,5 @@
+## 주석
+
 ```html
 <!-- HTML주석 -->
 ```
@@ -12,7 +14,11 @@ Java Script & CSS 주석
 */
 ```
 
-margin padding 차이는?**
+------
+
+
+
+## margin padding 차이는?
 
 margin은 정의된 요소 주위에  공간 여백을 늘리는 반면, padding은 컨텐츠를 기점으로 공간이 생긴다고 보시면 되는데, 
 
@@ -68,26 +74,17 @@ p {  margin-top: 100px;  margin-bottom: 100px;  margin-right: 150px;  margin-lef
 
 ------
 
-Background-size : background-image 적용 시 이미지 크기 맞춰서 조절가능 그냥 width height 조절과는 다르다
+- text-shadow는 글자에 그림자 효과를 주는 속성입니다.
+  - 기본값 : none
+  - 상속 : Yes
+  - 애니메이션 : Yes
+  - 버전 : CSS Level 3
 
-letter-spacing : 글자 간격 양수일수록 넓어짐
-
-text-shadow는 글자에 그림자 효과를 주는 속성입니다.
-
-- 기본값 : none
-- 상속 : Yes
-- 애니메이션 : Yes
-- 버전 : CSS Level 3
-
-### 문법
-
-
+#### 문법
 
 | 1    | text-shadow: offset-x offset-y blur-radius color \| none \| initial \| inherit |
 | ---- | ------------------------------------------------------------ |
 |      |                                                              |
-
-
 
 - offset-x : 그림자의 수평 거리를 정합니다. (필수)
 - offset-y : 그림자의 수직 거리를 정합니다. (필수)
@@ -97,9 +94,9 @@ text-shadow는 글자에 그림자 효과를 주는 속성입니다.
 - initial : 기본값으로 설정합니다.
 - inherit : 부모 요소의 속성값을 상속받습니다.
 
+------
 
-
-**속성 강제 적용 !important 선언**
+## **속성 강제 적용 !important 선언**
 
  !important는 위의 모든 순서를 무시하고, !important을 선언한 속성에 가장 먼저 우선 순위를 부여합니다.
 
@@ -113,16 +110,30 @@ text-shadow는 글자에 그림자 효과를 주는 속성입니다.
 
  **사용 방법:** 선택자 { 속성: 속성값 !important; }
 
-**스타일시트 중복적용 안하려면**
+------
+
+### **스타일시트 중복적용 안하려면**
+
 .style not(class name) 
 
-**웹 폰트 적용방법**
+### Background-size 
+
+ background-image 적용 시 이미지 크기 맞춰서 조절가능 그냥 width height 조절과는 다르다
+
+### letter-spacing 
+
+글자 간격 양수일수록 넓어짐
+
+------
+
+## **웹 폰트 적용방법**
 
 - https://moolgogiheart.tistory.com/89
-
 - https://medium.com/@hyunalee419/feconf-korea-웹폰트의-사용과-최적화-이상진-58c210fa77c4
 
-**Mouse position 관련 효과**
+------
+
+## **Mouse position 관련 효과**
 
 * 마우스를 올리고 있는 동안 : hover
 
@@ -151,11 +162,15 @@ text-shadow는 글자에 그림자 효과를 주는 속성입니다.
 
 ​    
 
-**색상표**
+------
+
+## **색상표**
 
 https://html-color-codes.info/Korean/
 
- **스타일시트 우선순위**
+------
+
+## **스타일시트 우선순위**
 
 https://engkimbs.tistory.com/913
 들어가서 읽고 정리해두기
@@ -206,4 +221,8 @@ ul ol .red-tag {
 #blue-tag {
 } /* a=0 b=1 c=0 d=0 => 100점 (1아이디)*/
 ```
+
+
+
+------
 
