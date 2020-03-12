@@ -226,3 +226,16 @@ ul ol .red-tag {
 
 ------
 
+## CSS에서 #과 .의 차이
+
+#div{...}   -> ID
+
+.div {...}  -> class
+
+- ID : 한번만 오는 오브젝트에 적용,
+
+  ​		한번만 사용가능 중복 안됨 !!!!
+
+ex) <table border="0" cellspacing="1" cellpadding="0" **id="detail"** bgcolor="#dddddd">
+
+- CLASS : 여러번 오는 오브젝트에 적용
