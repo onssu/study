@@ -272,6 +272,3 @@ line-height는 줄 높이를 정하는 속성입니다.
 
 ------
 
-https://d2.naver.com/helloworld/8540176
-
-Flexbox 읽고 정리해두기 
