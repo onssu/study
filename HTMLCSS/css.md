@@ -272,3 +272,9 @@ line-height는 줄 높이를 정하는 속성입니다.
 
 ------
 
+## 선택자
+
+![img](https://t1.daumcdn.net/cfile/tistory/212684495406747409)
+
+------
+
