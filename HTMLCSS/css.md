@@ -278,3 +278,64 @@ line-height는 줄 높이를 정하는 속성입니다.
 
 ------
 
+html element가 시각적으로 배치되는 방식은 크게 3가지이다.
+
+\1. 일반적인 흐름대로 배치되는 박스
+
+\2. 떠 있는 박스(float)
+
+\3. 절대적인 위치에 있는 박스
+
+위의 3가지 방식을 결정하는 속성이 css의 position. float, dislay이다.
+
+position, float => 배치 방식
+
+display = >속성, 박스 유형
+
+을 결정한다.
+
+**1. display**
+
+html의 각 테그들이 원래부터 가지고 있는 속성으로 박스의 형태를 결정
+
+| 속성         | 효과                                                         |
+| ------------ | ------------------------------------------------------------ |
+| block        | 한 줄에 하나씩 요소를 배치width, height, margin, padding 등의 속성 반영 |
+| inline       | 내부에 있는 요소의 크기만큼 element의 크기 결정한 줄에 여러개 배치 가능width, height => 무시margin, padding => 상 하 무시 |
+| inline-block | inline이긴 하나, width, height, margin, padding 속성을 가질 수 있다. (한 줄에 여러개 배치 가능) |
+
+block - div, p, h...
+
+inline - span, a, em...
+
+inline-block - button, select...
+
+flex도 있긴 하지만, 다룰 내용이 많아서 기회가 되면 다시 정리하도록 하겠다.(제일 편하다)
+
+**2. float**
+
+요소를 특정한 방향으로 띄우는 효과를 줌.
+
+다른 element들은 float속성으로 떠버린 테그가 남긴 공간을 채우려 하게 됩니다.
+
+| 속성  | 효과           |
+| ----- | -------------- |
+| left  | 좌측 끝에 배치 |
+| right | 우측 끝에 배치 |
+
+clear속성을 적용해 주면, float를 지정해 주었던 효과가 사라지게 된다.
+
+clear:right속성을 가진 element와 float:right를 가진 element가 동시에 있을 경우, float:rigth 속성을 가진 테그가 의 영향을 받지 않게 된다.
+
+**3.position**
+
+ html 요소들의 이치를 직접적으로 조정할 수 있는 속성
+
+position속성이 지정될 경우(기본인 static 제외), left, top, right, bottom 등의 offset을 사용하여 html element의 위치를 조정할 수 있다.
+
+| 속성     | 효과                                                         |
+| -------- | ------------------------------------------------------------ |
+| static   | 기본, 상->하 요소 배치                                       |
+| relative | 원래 자신이 있어야할 위치(static)를 기준으로 배치 (부모요소로 부터) |
+| absolute | position이 static이 아닌 가장 가까운 상위 요소 기준 배치. 가장 가까운 relative/absolute/fixed를 기준으로 움직인다. 해당사항이 없다면,  body가 기준이됨. |
+| fixed    | 웹 전체를 기준으로 배치 (스크롤을 해도 위쳐 변화없음)        |
