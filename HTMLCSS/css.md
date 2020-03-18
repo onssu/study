@@ -339,3 +339,6 @@ position속성이 지정될 경우(기본인 static 제외), left, top, right, b
 | relative | 원래 자신이 있어야할 위치(static)를 기준으로 배치 (부모요소로 부터) |
 | absolute | position이 static이 아닌 가장 가까운 상위 요소 기준 배치. 가장 가까운 relative/absolute/fixed를 기준으로 움직인다. 해당사항이 없다면,  body가 기준이됨. |
 | fixed    | 웹 전체를 기준으로 배치 (스크롤을 해도 위쳐 변화없음)        |
+
+------
+
