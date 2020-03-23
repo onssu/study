@@ -297,3 +297,7 @@ https://dev.w3.org/html5/html-author/charref
 https://www.w3schools.com/html/
 
 기초문법 익히는 사이트 
+
+https://poiemaweb.com/html5-syntax
+
+html5추가된 사항 정리해놓은 사이트
