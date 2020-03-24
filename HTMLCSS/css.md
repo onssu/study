@@ -342,3 +342,121 @@ position속성이 지정될 경우(기본인 static 제외), left, top, right, b
 
 ------
 
+## Border
+
+### 개요
+
+border는 테두리를 만드는 속성입니다. 위, 오른쪽, 아래, 왼쪽 선을 한 번에 정합니다.
+
+- 기본값 : medium, none, color
+- 상속 : No
+- 애니메이션 : Yes
+- 버전 : CSS Level 1
+
+### 문법
+
+
+
+| 1    | border: border-width border-style border-color \| initial \| inherit |
+| ---- | ------------------------------------------------------------ |
+|      |                                                              |
+
+
+
+- border-width : 선의 두께를 정합니다. 기본값은 medium입니다.
+- border-style : 선의 모양을 정합니다. 기본값은 none입니다.
+- border-color : 선의 색을 정합니다. 기본값은 꾸미려는 요소의 색(color)입니다.
+- initial : 기본값으로 설정합니다.
+- inherit : 부모 요소의 속성값을 상속받습니다.
+
+border-width에는 다음의 값을 넣을 수 있습니다.
+
+
+
+| 1    | medium \| thick \| thin \| length \| initial \| inherit |
+| ---- | ------------------------------------------------------- |
+|      |                                                         |
+
+
+
+border-style에는 다음의 값을 넣을 수 있습니다.
+
+
+
+| 1    | dashed \| dotted \| double \| groove \| hidden \| inset \| none \| outset \| ridge \| solid \| initial \| inherit |
+| ---- | ------------------------------------------------------------ |
+|      |                                                              |
+
+
+
+
+
+### 예제
+
+
+
+```css
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS</title>
+    <style type="text/css">
+      div {
+        margin: 10px 0px;
+        text-align: center;
+        font-family: Consolas, monospace;
+        font-style: italic;
+        font-size: 13px;
+      }
+      .a {
+        border: 4px dashed #bcbcbc;
+      }
+      .b {
+        border: thick dotted #f44336;
+      }
+      .c {
+        border: 5pt groove #3f51b5;
+      }
+      .d {
+        border: 0.4em inset #009688;
+      }
+      .e {
+        border: 5px ridge #ff5722;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="a">
+      <p>border: 4px dashed #bcbcbc;</p>
+    </div>
+    <div class="b">
+      <p>border: thick dotted #f44336;</p>
+    </div>
+    <div class="c">
+      <p>border: 5pt groove #3f51b5;</p>
+    </div>
+    <div class="d">
+      <p>border: 0.4em inset #009688;</p>
+    </div>
+    <div class="e">
+      <p>border: 5px ridge #ff5722;</p>
+    </div>
+  </body>
+</html>
+```
+
+
+
+![img](https://www.codingfactory.net/wp-content/uploads/css-border-01.png)
+
+### 브라우저 지원
+
+- Chrome : 1.0+
+- Firefox : 1.0+
+- Internet Explorer : 4.0+
+- Opera : 3.5+
+- Safari : 1.0+
+
+------
+
