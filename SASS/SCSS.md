@@ -50,6 +50,8 @@ p {
 
 ```scss
 //예를들면 flex로 하자
+@import 'styles/root.scss';
+
 div {
  display: flex;
  flex-direction: row;
@@ -62,10 +64,27 @@ div {
 }
 //이렇게 만들고 여기저기서
 
-@flexRow();
+@inlcude flexRow();
 //이렇게만 치면 mixin으로 만든게 적용!
 
 ```
+
+#### &
+
+```scss
+.sideWrap { ... }
+
+.sideWrpa: hover { ... }
+//원래의 이런 형태를
+
+.sideWrap {
+...
+&:hover { ...}
+}
+//이렇게 중복을 방지하는 용으로 & 사용 
+```
+
+
 
 ------
 
