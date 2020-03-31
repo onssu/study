@@ -400,5 +400,3 @@ console.log(result);
 
 ------
 
-## 유효범위
-
