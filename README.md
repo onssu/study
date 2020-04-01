@@ -38,7 +38,10 @@
 
   
 
-## Gitstudy.md (진행중)
+## > Git (진행중)
+
+Git 기본 문법 정리, Git-flow 정리 (예정)
 
 - study by Minsoonss
 - Googling
+- 우아한형제들 기술블로그 ( https://woowabros.github.io/experience/2017/10/30/baemin-mobile-git-branch-strategy.html )
