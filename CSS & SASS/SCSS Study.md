@@ -1,4 +1,4 @@
-## SCSS STUDY by 수연
+# SCSS STUDY by Suyeon
 
 ```css
 div p {
