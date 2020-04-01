@@ -1,6 +1,4 @@
-#Study
-
-## Git Study by misoonss
+# Git Study by misoonss
 
 * 2019.03.23 sat
 
