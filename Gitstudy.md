@@ -96,7 +96,7 @@ Git은 기본적으로 빈폴더를 Track 하지 않는다.
 mkdir emptyDir  
 cd emptyDir  
 touch .gitkeep  
-git add *  
+git add *  & git add .
 git commit -m 'keep file'  
 git push -u origin master   
 
@@ -109,6 +109,8 @@ md 는 개행이 안먹히니 공백 2칸 또는 개행 2번으로 구분하자.
 
 mkdir : 디렉토리 생성  
 mv : 어떤 파일을 이동(mv 파일 이동시킬경로)?  
+
+깃플로우!!!!
 
 
 
