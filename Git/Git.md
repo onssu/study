@@ -2,7 +2,7 @@
 
 
 
-## 2019.12.10 TUE added.
+### 2019.12.10 TUE added.
 
 - remote > origin 
   remote 로 확인할 것
@@ -33,7 +33,7 @@ last Line mode > Command mode - Enter
 커밋 메세지 내의 #로 시작하는 줄은 주석처리됨.  
 
 
-## 2019.12.11 WED added
+### 2019.12.11 WED added
 
 Git은 기본적으로 빈폴더를 Track 하지 않는다.  
 그러므로 우리는 숨겨진 파일을 빈 폴더 안에 넣어야 한다  
