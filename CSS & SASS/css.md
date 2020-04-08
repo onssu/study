@@ -257,13 +257,7 @@ line-height는 줄 높이를 정하는 속성입니다.
 
 ### 문법
 
-
-
-| 1    | line-height: normal \| length \| number \| percentage \| initial \| inherit |
-| ---- | ------------------------------------------------------------ |
-|      |                                                              |
-
-
+<table><tr><td>1</td><td>line-height: normal \| length \| number \| percentage \| initial \| inherit</td></tr></table>
 
 - normal : 웹브라우저에서 정한 기본값입니다. 보통 1.2입니다.
 - length : 길이로 줄 높이를 정합니다.
@@ -359,13 +353,7 @@ border는 테두리를 만드는 속성입니다. 위, 오른쪽, 아래, 왼쪽
 
 ### 문법
 
-
-
-| 1    | border: border-width border-style border-color \| initial \| inherit |
-| ---- | ------------------------------------------------------------ |
-|      |                                                              |
-
-
+<table><tr><td>1</td><td>border: border-width border-style border-color \| initial \| inherit</td></tr></table>
 
 - border-width : 선의 두께를 정합니다. 기본값은 medium입니다.
 - border-style : 선의 모양을 정합니다. 기본값은 none입니다.
@@ -375,29 +363,15 @@ border는 테두리를 만드는 속성입니다. 위, 오른쪽, 아래, 왼쪽
 
 border-width에는 다음의 값을 넣을 수 있습니다.
 
-
-
-| 1    | medium \| thick \| thin \| length \| initial \| inherit |
-| ---- | ------------------------------------------------------- |
-|      |                                                         |
-
-
+<table><tr><td>1</td><td>medium \| thick \| thin \| length \| initial \| inherit</td></tr></table>
 
 border-style에는 다음의 값을 넣을 수 있습니다.
 
-
-
-| 1    | dashed \| dotted \| double \| groove \| hidden \| inset \| none \| outset \| ridge \| solid \| initial \| inherit |
-| ---- | ------------------------------------------------------------ |
-|      |                                                              |
-
-
+<table><tr><td>1</td><td>dashed \| dotted \| double \| groove \| hidden \| inset \| none \| outset \| ridge \| solid \| initial \| inherit</td></tr></table>
 
 
 
 ### 예제
-
-
 
 ```css
 <!doctype html>
