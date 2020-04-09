@@ -17,7 +17,7 @@
 
 - div 안에 있는 p 처럼 하위구조를 가지고 있을 경우, div의 속성 정의 블록 안에 하위에 있는 p가 들어갈 수 있다.
 
-```null
+```scss
 //scss
 .div {
 	p {
@@ -33,7 +33,7 @@
 
 - 축양형으로 묶일 수 있는 속성들 끼리도 네스팅이 가능하다.
 
-```null
+```scss
  .div {
 	p {
           font: {
@@ -49,7 +49,7 @@
 
 - &을 사용하면 현재 블럭이 적용되는 셀렉터를 참조,치환
 
-```null
+```scss
 //scss
 a {
   text-decoration: none
@@ -63,7 +63,7 @@ a:hover { text-decoratino: underline; }
 
 - '글자'를 이어서 써서 선택자 클래스명 이름을 완성할 수도 있다.
 
-```null
+```scss
 //scss
 .btn {
    display:inline-block; padding:3px 10px; border:1px solid #000;
@@ -101,7 +101,7 @@ a:hover { text-decoratino: underline; }
 
 - `#{...}` 을 사용하면 문자열 내에 표현식의 결과를 내삽하거나, 다른 변수의 내용으로 치환하는 것이 가능하다. 이는 속성값의 일부 혹은 전체 뿐만 아니라 속성명이나 셀렉터에 대해서도 적용 가능하다.
 
-```null
+```scss
 //scss
 $foo: bar;
 $fontsize: 12px;
@@ -128,7 +128,7 @@ p.bar { color: red; }
   따라서 특정한 클래스군에 대해서 베이스 클래스에서 공통 속성을 지정하여, 다른 클래스들이 베이스 클래스를 상속받는 효과를 낼 수 있다.
   확장 문법은 `@extend` 최상위셀렉터의 형태로 사용한다.
 
-```null
+```scss
 // SCSS
 .message {
   border: 1px solid #ccc;
@@ -154,7 +154,7 @@ p.bar { color: red; }
 - 믹스인은 @mixin 키워드를 이용해서 이름과 인자를 선언한다. 인자가 필요없는 믹스인은 ($인자) 부분을 생략할 수 있다. 인자는 일반 변수처럼 정의한다.
 - 믹스인을 사용할 때에는 @include 지시어를 사용한다.
 
-```null
+```scss
 // SCSS
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
@@ -170,13 +170,13 @@ p.bar { color: red; }
 
 - 믹스인의 인자는 선언하는 만큼 사용할 수 있다. 만약 인자값에 디폴트를 적용하고 싶다면, 변수 선언과 같은 문법으로 인자변수의 초기값을 설정해 줄 수 있다.
 
-```null
+```scss
 @mixin dashed-box($color, $width: 2px) { .. }
 ```
 
 - @include 구문에서 인자값은 선언된 순서대로 쓸 수 있으며, 보다 명확한 구분을 위해서 인자의 이름을 직접 기입할 수 있다. 인자의 각 이름을 명시한 경우에는 순서가 바뀌어도 상관없다.
 
-```null
+```scss
 .box { @incluxe dashed-box($width: 3px, $color: #eee) }
 ```
 
@@ -184,7 +184,7 @@ p.bar { color: red; }
 
 - 인자명에 ... 을 붙이면 단일 값이 아닌 리스트로 인자를 받는 다는 의미이다. 이는 일련의 연속값을 속성으로 사용하는 경우에 활용할 수 있다.
 
-```null
+```scss
 @mixin box-shadow($shadows...) {
   -moz-box-shadow: $shadows;
   -webkit-box-shadow: $shadows;
@@ -196,7 +196,7 @@ p.bar { color: red; }
 
 - ... 표현은 리스트나, 맵을 개별 인자들로 분해해서 함수나 믹스인에 전달할 때 사용될 수 있다.
 
-```null
+```scss
 @mixin colors($text, $background, $border) {
   color: $text;
   background-color: $background;
@@ -211,7 +211,7 @@ $values: #ff0000, #00ff00, #0000ff;
 
 - 흔한 케이스는 아니지만, 블럭 자체를 믹스인에 넘겨줄 수 있다. 믹스인내에서 @content 지시어를 쓴 부분이 넘겨받은 블럭으로 치환된다.
 
-```null
+```scss
 @mixin code-inline {
   code {
     background-color: #cecece;
@@ -235,7 +235,7 @@ p {
 - css 속성 정의의 모듈화와 재사용은 믹스인을 통해서 처리하면 된다. 함수는 어떤 값들을 사용해서 하나의 리턴값을 생성하는 용도로 사용하는 것이 좋다. 함수의 정의는 @function 지시어를 통해서 정의하며, 내부에서는 @return 지시어를 통해서 값을 내보낸다. 다음 예는 그리드 시스템에서 개별 셀과 여백의 크기를 통해서 n칸짜리 요소의 폭을 계산하는 함수이다.
 - 함수 역시 믹스인과 마찬가지로 복수 인자 및 인자 분해 등을 적용해서 사용할 수 있다. 또한 SASS 내에서는 여러 기본 함수들이 내장되어 있다.
 
-```null
+```scss
 / SCSS
 $grid-width: 40px; 
 $gutter-width: 10px; 
@@ -253,7 +253,7 @@ $gutter-width: 10px;
 
 - 분기구문은 `@if` 절을 이용하여 작성한다. `@if 표현식 { ... } @else if 표현식 { ... } @else { ... }` 식으로 연결되는 다중 분기를 만들 수 있다.
 
-```null
+```scss
 @mixin hcolor($n) {
   @if $n % 2 == 0 { color: white; }
   @else { color: blue; } 
@@ -273,7 +273,7 @@ code { color: text-color(200);
 2. @each : 주어진 리스트나 맵의 각 원소에 대해 순회한다.
 3. @while : 주어진 조건을 만족하는 동안 반복한다.
 
-```null
+```scss
 @for $i from 1 through 3 { // 1, 2, 3,에 대해 반복
   .time-#{$i} { width: 2em * $i; } 
 } 
