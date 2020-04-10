@@ -293,5 +293,10 @@ $i : 6;
 }
 ```
 
-- [!https://soooprmx.com/archives/7948!] 참고사이트 
-- [http://blog.naver.com/PostView.nhn?blogId=kira4195&logNo=221262057145&parentCategoryNo=&categoryNo=29&viewDate=&isShowPopularPosts=false&from=postView][SCSS] SCSS문법 정리 네스팅 변수 @import @mixin @include @for @each @while|작성자 웹퍼블리셔 비비각시
+
+
+### 참조
+
+[!https://soooprmx.com/archives/7948!] 참고사이트 
+
+[http://blog.naver.com/PostView.nhn?blogId=kira4195&logNo=221262057145&parentCategoryNo=&categoryNo=29&viewDate=&isShowPopularPosts=false&from=postView][SCSS] SCSS문법 정리 네스팅 변수 @import @mixin @include @for @each @while|작성자 웹퍼블리셔 비비각시
