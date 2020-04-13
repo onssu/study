@@ -84,6 +84,13 @@ a:hover { text-decoratino: underline; }
 
 ------
 
+<<<<<<< HEAD
+=======
+------
+
+------
+
+>>>>>>> d0cff78c404f86df74799b2cd8c1bcaa6cbc2fd0
 
 
 ### 변수 타입
