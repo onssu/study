@@ -84,10 +84,6 @@ a:hover { text-decoratino: underline; }
 
 ------
 
-------
-
-------
-
 
 
 ### 변수 타입
