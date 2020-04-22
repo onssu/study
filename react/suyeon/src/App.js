@@ -1,14 +1,14 @@
 import React, { Fragment } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Test from './Test';
 
 class app extends React.Component{
   render() {
-    const name = '순민';
+
+    const num = 6;
 
     return(
-      <div className="divwrap">
-        {name === '유리' ? (<div>바보</div>) : (<div>멍청이</div>)}
+      <div id="container">
+        <Test number={num}/>
       </div>
     )
   }

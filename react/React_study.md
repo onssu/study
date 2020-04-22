@@ -39,3 +39,28 @@ const name = '유리';
 ```
 
 - class 아니고 classname 이다 !! 
+- console.log(변수명) 디버깅 역할
+
+## State 와 Props
+
+### state (값 변경이 가능한 클래스형)
+
+- 변수 (굳이 따지자면 지역변수?), 한 페이지 내에서만 사용 가능
+
+- ; 아니고 , 사용
+
+```jsx
+setstate.
+this.state.
+```
+
+### Props (값 읽어오기만 가능한 함수형)
+
+- 상속 개념, 자식은 값 변경이 안된다
+
+```
+import.자식
+<자식/>
+<자식 number = {num}/>
+```
+
