@@ -5,7 +5,7 @@ class Test extends React.Component{
   render() {
     return(
       <div className="divwrap">
-        {this.props.number}
+        <title>To Do List</title>
       </div>
     )
   }

@@ -8,7 +8,10 @@ class app extends React.Component{
 
     return(
       <div id="container">
-        <Test number={num}/>
+      <div class="js-clock">
+        <h1>00:00</h1>
+      </div>
+      <script src="clock.js"></script>
       </div>
     )
   }
