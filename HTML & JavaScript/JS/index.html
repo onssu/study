@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
+
     <head>
        <title>Something</title>
        <meta charset="utf-8">
        <Link rel="stylesheet" href="index.css"/>
     </head>
+
     <body>
+
         <div class="js-clock">
             <h1>00:00</h1>
         </div>
@@ -24,5 +27,24 @@
         <script src="todo.js"></script>
         <script src="bg.js"></script>
         <script src="weather.js"></script>
+
+
+
+        <h1 id="title">Javascript Example: 모달창 만들기</h1>
+	
+        <button id="open">모달창 열기</button>
+        <div class="modal hidden">
+            <div class="md_overlay"></div>
+            <div class="md_content">
+                <h1>샘플 모달창</h1>
+                <div class="modal_text">
+                    자바스크립트로 모달창을 만들어 봤습니다. 
+                </div>
+                <button>X</button>
+            </div>
+        </div>
+
+        <script src="modal.js"></script>
+
     </body>
 </html>
