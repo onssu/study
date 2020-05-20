@@ -27,7 +27,7 @@ function paintGreeting(text){
     greeting.innerText = `Hello ${text}`;
 }
 
-function loadName(){
+const loadName = () => {
     const currentUser = localStorage.getItem(USER_LS);
     if(currentUser === null){
         askForName();
@@ -36,9 +36,8 @@ function loadName(){
         paintGreeting(currentUser);
     }
 }
-function init(){
+const init = () => {
     loadName();
 }
-
 
 init();

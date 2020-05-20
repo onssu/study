@@ -2,9 +2,11 @@
 <html>
 
     <head>
-       <title>Something</title>
+
+       <title>JS 뿌셔</title>
        <meta charset="utf-8">
        <Link rel="stylesheet" href="index.css"/>
+    
     </head>
 
     <body>
@@ -19,32 +21,40 @@
         <form class="js-toDoForm">
             <input type="text" placeholder="Write a to do"/>
         </form>
-        <ul class="js-toDoList">
-        </ul>
-        <span class="js-weather"></span>
-        <script src="clock.js"></script>
-        <script src="greeting.js"></script>
-        <script src="todo.js"></script>
-        <script src="bg.js"></script>
-        <script src="weather.js"></script>
+        <ul class="js-toDoList"></ul>
+        <span class="js-weather"></span><br><br>
 
-
-
-        <h1 id="title">Javascript Example: 모달창 만들기</h1>
-	
-        <button id="open">모달창 열기</button>
-        <div class="modal hidden">
-            <div class="md_overlay"></div>
-            <div class="md_content">
-                <h1>샘플 모달창</h1>
-                <div class="modal_text">
-                    자바스크립트로 모달창을 만들어 봤습니다. 
-                </div>
-                <button>X</button>
+        <button class="modalBtn" id="open">Open Modal</button>
+        <div class = "modal hidden">
+            <div class="modal__overlay"></div>
+            <div class="modal__content">
+                <h2>I'm a modal</h2>
+                <button>❌</button>
             </div>
         </div>
-
-        <script src="modal.js"></script>
+        <script>
+            const openButton = document.getElementById("open");
+            const modal = document.querySelector(".modal");
+            const overlay = modal.querySelector(".modal__overlay");
+            const closeBtn = modal.querySelector("button");
+            const openModal = () => {
+                modal.classList.remove("hidden");
+            }
+            const closeModal = () => {
+                modal.classList.add("hidden");
+            }
+            overlay.addEventListener("click",closeModal);
+            closeBtn.addEventListener("click",closeModal);
+            openButton.addEventListener("click",openModal);
+        </script>
 
     </body>
+
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+    <script src="modal.js"></script>
+
 </html>
