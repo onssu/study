@@ -1,63 +1,61 @@
-function solution(expression) {
-
-    var exArray = expression.split("");
-    var opr = [];
+function solution(n)
+{
     var answer = 0;
-    var tempString = "";
-    var nums = [];
-    var result = [];
-    var chk = new array[50];
+    var DP = [1,3];
+    var chk = 3;
 
-    exArray.forEach(element => {
-        
-        if(element === '-') {
-            opr.push('-');
-            nums.push(Number(tempString));
-            tempString = "";
-        }
-        else if(element === '+') {
-            opr.push('+');
-            nums.push(Number(tempString));
-            tempString = "";
-        }
-        else if(element === '*') {
-            opr.push('*');
-            nums.push(Number(tempString));
-            tempString = "";
-        }
-        else {
-            tempString+=element;
-        }
+    for(var i=0;i<;i++){
 
-    });
+        DP[i+2] = DP[i] + DP[i+1];
 
-    nums.push(Number(tempString));
-
-   for(var i=0;i<opr.length;i++){
-       if(opr[i]==='+'){
-           nums[i+1]=nums[i]+nums[i+1];
-           chk[i]=false;
-       }
-   }
-
-   for(var i=0;i<opr.length;i++){
-
-    if(opr[i]==='-'){
-        if(chk[i+1]===false) break;
-        nums[i+1]=nums[i]-nums[i+1];
-        chk[i]=false;
     }
 
-    for(var i=0;i<opr.length;i++){
-        if(chk[i+1]===false) break;
-        if(opr[i]==='*'){
-            nums[i+1]=nums[i]*nums[i+1];
-            chk[i]=false;
-        }
-    }
 
-    console.log()
+
+    return answer;
+
 }
+
+function solution(p)
+{
+    var answer = 0;
+    var num  = parseInt(p);
+    var numCopy = num;
+
+    console.log(num);
+
+            for(var i = 0; ; i++){
+
+                num ++;
+
+                var numArr = [0,0,0,0,0,0,0,0,0,0];
+
+                while( !== 0){
+                    numArr[(num % 10)] += 1;
+                    num /= 10;
+                }
+
+                for(var j = 0; j < 10; j++){
+                    if(numArr[j] === 2) {
+                        break;
+                    }
+                    if(j===9) var chk = true;
+                }
+
+                if(chk) break;
+
+            }
+
+            console.log(numArr);
+
+            for(var i=0;i<10;i++){
+
+                if(numArr[i] === 1){
+                    answer = answer * 10;
+                    answer += i ;
+                }
+
+            }
 
     return answer;
 
