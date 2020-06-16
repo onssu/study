@@ -1,62 +1,33 @@
 function solution(n)
 {
-    var answer = 0;
-    var DP = [1,3];
-    var chk = 3;
+    var DP = [1,3,4];
+    var chk = 2;
+    var lenChk = 3;
+    var now = 3;
 
-    for(var i=0;i<;i++){
+    for(var i=1;i<n;i++){
 
-        DP[i+2] = DP[i] + DP[i+1];
+        var len = DP.length;
+
+        if(DP.length === 3 || DP.length+1 === lenChk){
+            DP[len] = Math.pow(3,chk);
+            lenChk = DP.length * 2;
+            now =  Math.pow(3,chk);
+            chk ++;
+        }
+
+        len = DP.length;
+
+        for(var j=0 ;j < len-1; j++){
+            DP[len + j] = DP[j] + now;
+        }
+        
+        console.log(DP,lenChk,now);
 
     }
 
-
-
-    return answer;
+    return DP[n-1];
 
 }
 
-function solution(p)
-{
-    var answer = 0;
-    var num  = parseInt(p);
-    var numCopy = num;
 
-    console.log(num);
-
-            for(var i = 0; ; i++){
-
-                num ++;
-
-                var numArr = [0,0,0,0,0,0,0,0,0,0];
-
-                while( !== 0){
-                    numArr[(num % 10)] += 1;
-                    num /= 10;
-                }
-
-                for(var j = 0; j < 10; j++){
-                    if(numArr[j] === 2) {
-                        break;
-                    }
-                    if(j===9) var chk = true;
-                }
-
-                if(chk) break;
-
-            }
-
-            console.log(numArr);
-
-            for(var i=0;i<10;i++){
-
-                if(numArr[i] === 1){
-                    answer = answer * 10;
-                    answer += i ;
-                }
-
-            }
-
-    return answer;
-
-}
