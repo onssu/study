@@ -33,10 +33,14 @@ const foodILike = [{
     "http://cdn2.koreanbapsang.com/wp-content/uploads/2012/05/DSC_1238r-e1454170512295.jpg"
 }]
 
+function renderFood(dish){
+  return <Food name={dish.name} picture={dish.image} />
+}
+
 function App() {
   return (
     <div className="App">
-      {foodILike.map(dish => <Food name={dish.name} picture={dish.image} />)}
+      {foodILike.map(renderFood)}
     </div>
   );
 }
