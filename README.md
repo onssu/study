@@ -45,3 +45,7 @@ Git 기본 문법 정리, Git-flow 정리
 - study by Minsoonss
 - Googling
 - 우아한형제들 기술블로그 ( https://woowabros.github.io/experience/2017/10/30/baemin-mobile-git-branch-strategy.html )
+
+## etc
+
+그 외 웹 개발에 필요한 요소들 공부한 자료
